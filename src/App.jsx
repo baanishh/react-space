@@ -20,7 +20,7 @@ const App = () => {
     <div>
       <div className="h-[700px] relative">
         
-        <video autoPlay loop muted
+        <video autoPlay loop muted playsInline preload="metadata" 
         className='fixed top-0 right-0 w-full object-cover z[-1] h-[700px] ' >
           <source src={bgVideo} type='video/mp4' />
         </video>
